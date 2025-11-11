@@ -1,0 +1,420 @@
+{
+  "tires": [
+    {
+      "TIRE Size": "9.00-20 14 EMSA",
+      "LOAD INDEX": 2575,
+      "STD I/P": 110,
+      "Speed symbol": "J"
+    },
+    {
+      "TIRE Size": "10.00-20 16 EMSA",
+      "LOAD INDEX": 3000,
+      "STD I/P": 115,
+      "Speed symbol": "J"
+    },
+    {
+      "TIRE Size": "10.00-20 16 SUTA",
+      "LOAD INDEX": 2754,
+      "STD I/P": 112,
+      "Speed symbol": "J"
+    },
+    {
+      "TIRE Size": "10.00-20 16 VLGN",
+      "LOAD INDEX": 2700,
+      "STD I/P": 110,
+      "Speed symbol": "J"
+    },
+    {
+      "TIRE Size": "10.00-20 16 ULN",
+      "LOAD INDEX": 3000,
+      "STD I/P": 115,
+      "Speed symbol": "J"
+    },
+    {
+      "TIRE Size": "11.00-20 16 EMSA",
+      "LOAD INDEX": 3350,
+      "STD I/P": 115,
+      "Speed symbol": "J"
+    },
+    {
+      "TIRE Size": "11.00-20 16 VLGN",
+      "LOAD INDEX": 2950,
+      "STD I/P": 110,
+      "Speed symbol": "J"
+    },
+    {
+      "TIRE Size": "11.00-20 18 VLGN",
+      "LOAD INDEX": 3000,
+      "STD I/P": 112,
+      "Speed symbol": "J"
+    },
+    {
+      "TIRE Size": "11.00-20 16 UTB",
+      "LOAD INDEX": 2950,
+      "STD I/P": 112,
+      "Speed symbol": "J"
+    },
+    {
+      "TIRE Size": "10.00R20 16 R150",
+      "LOAD INDEX": 3000,
+      "STD I/P": 116,
+      "Speed symbol": "K"
+    },
+    {
+      "TIRE Size": "10.00R20 16 M840",
+      "LOAD INDEX": 3075,
+      "STD I/P": 116,
+      "Speed symbol": "K"
+    },
+    {
+      "TIRE Size": "10.00R20 16 M857",
+      "LOAD INDEX": 3075,
+      "STD I/P": 116,
+      "Speed symbol": "K"
+    },
+    {
+      "TIRE Size": "10.00R20 16 L301",
+      "LOAD INDEX": 3075,
+      "STD I/P": 116,
+      "Speed symbol": "G"
+    },
+    {
+      "TIRE Size": "10.00R20 16 L317",
+      "LOAD INDEX": 3350,
+      "STD I/P": 116,
+      "Speed symbol": "G"
+    },
+    {
+      "TIRE Size": "11.00R20 16 R150",
+      "LOAD INDEX": 3350,
+      "STD I/P": 120,
+      "Speed symbol": "K"
+    },
+    {
+      "TIRE Size": "11.00R20 16 M840",
+      "LOAD INDEX": 3350,
+      "STD I/P": 121,
+      "Speed symbol": "K"
+    },
+    {
+      "TIRE Size": "11.00R20 16 L355",
+      "LOAD INDEX": 3350,
+      "STD I/P": 121,
+      "Speed symbol": "G"
+    },
+    {
+      "TIRE Size": "11.00R20 16 L317",
+      "LOAD INDEX": 3550,
+      "STD I/P": 120,
+      "Speed symbol": "G"
+    },
+    {
+      "TIRE Size": "11R22.5 16 G611",
+      "LOAD INDEX": 3150,
+      "STD I/P": 123,
+      "Speed symbol": "L"
+    },
+    {
+      "TIRE Size": "11R22.5 16 R150",
+      "LOAD INDEX": 3150,
+      "STD I/P": 123,
+      "Speed symbol": "L"
+    },
+    {
+      "TIRE Size": "11R22.5 16 M729",
+      "LOAD INDEX": 3150,
+      "STD I/P": 123,
+      "Speed symbol": "L"
+    },
+    {
+      "TIRE Size": "11R22.5 16 M711",
+      "LOAD INDEX": 3150,
+      "STD I/P": 123,
+      "Speed symbol": "L"
+    },
+    {
+      "TIRE Size": "11R22.5 16 M840",
+      "LOAD INDEX": 3150,
+      "STD I/P": 124,
+      "Speed symbol": "L"
+    },
+    {
+      "TIRE Size": "11R22.5 16 L355",
+      "LOAD INDEX": 3150,
+      "STD I/P": 124,
+      "Speed symbol": "G"
+    },
+    {
+      "TIRE Size": "11R22.5 16 L317",
+      "LOAD INDEX": 3150,
+      "STD I/P": 123,
+      "Speed symbol": "G"
+    },
+    {
+      "TIRE Size": "12.00R24 18 M840",
+      "LOAD INDEX": 4000,
+      "STD I/P": 114,
+      "Speed symbol": "K"
+    },
+    {
+      "TIRE Size": "12.00R24 18 L355",
+      "LOAD INDEX": 4000,
+      "STD I/P": 114,
+      "Speed symbol": "G"
+    },
+    {
+      "TIRE Size": "12.00R24 18 L317",
+      "LOAD INDEX": 4000,
+      "STD I/P": 124,
+      "Speed symbol": "G"
+    },
+    {
+      "TIRE Size": "12.00-24 18 VLGN",
+      "LOAD INDEX": 3750,
+      "STD I/P": 112,
+      "Speed symbol": "J"
+    }
+  ],
+  "speed_table": [
+    {
+      "speed": 0,
+      "F": 2.5,
+      "G": 2.5,
+      "J": 2.5,
+      "K": 2.5,
+      "L": 2.5,
+      "M": 2.5,
+      "psi": 173.6
+    },
+    {
+      "speed": 5,
+      "F": 2.1,
+      "G": 2.1,
+      "J": 2.1,
+      "K": 2.1,
+      "L": 2.1,
+      "M": 2.1,
+      "psi": 173.6
+    },
+    {
+      "speed": 10,
+      "F": 1.8,
+      "G": 1.8,
+      "J": 1.8,
+      "K": 1.8,
+      "L": 1.8,
+      "M": 1.8,
+      "psi": 161.20000000000002
+    },
+    {
+      "speed": 15,
+      "F": 1.65,
+      "G": 1.65,
+      "J": 1.65,
+      "K": 1.65,
+      "L": 1.65,
+      "M": 1.65,
+      "psi": 155
+    },
+    {
+      "speed": 20,
+      "F": 1.5,
+      "G": 1.5,
+      "J": 1.5,
+      "K": 1.5,
+      "L": 1.5,
+      "M": 1.5,
+      "psi": 150.04
+    },
+    {
+      "speed": 25,
+      "F": 1.35,
+      "G": 1.35,
+      "J": 1.35,
+      "K": 1.35,
+      "L": 1.35,
+      "M": 1.35,
+      "psi": 145.07999999999998
+    },
+    {
+      "speed": 30,
+      "F": 1.25,
+      "G": 1.25,
+      "J": 1.25,
+      "K": 1.25,
+      "L": 1.25,
+      "M": 1.25,
+      "psi": 140.11999999999998
+    },
+    {
+      "speed": 35,
+      "F": 1.19,
+      "G": 1.19,
+      "J": 1.19,
+      "K": 1.19,
+      "L": 1.19,
+      "M": 1.19,
+      "psi": 137.64000000000001
+    },
+    {
+      "speed": 40,
+      "F": 1.15,
+      "G": 1.15,
+      "J": 1.15,
+      "K": 1.15,
+      "L": 1.15,
+      "M": 1.15,
+      "psi": 136.4
+    },
+    {
+      "speed": 45,
+      "F": 1.13,
+      "G": 1.13,
+      "J": 1.13,
+      "K": 1.13,
+      "L": 1.13,
+      "M": 1.13,
+      "psi": 135.16
+    },
+    {
+      "speed": 50,
+      "F": 1.12,
+      "G": 1.12,
+      "J": 1.12,
+      "K": 1.12,
+      "L": 1.12,
+      "M": 1.12,
+      "psi": 133.92000000000002
+    },
+    {
+      "speed": 55,
+      "F": 1.11,
+      "G": 1.11,
+      "J": 1.11,
+      "K": 1.11,
+      "L": 1.11,
+      "M": 1.11,
+      "psi": 132.68
+    },
+    {
+      "speed": 60,
+      "F": 1.1,
+      "G": 1.1,
+      "J": 1.1,
+      "K": 1.1,
+      "L": 1.1,
+      "M": 1.1,
+      "psi": 131.44
+    },
+    {
+      "speed": 65,
+      "F": 1.075,
+      "G": 1.085,
+      "J": 1.085,
+      "K": 1.085,
+      "L": 1.085,
+      "M": 1.085,
+      "psi": 128.96
+    },
+    {
+      "speed": 70,
+      "F": 1.05,
+      "G": 1.07,
+      "J": 1.07,
+      "K": 1.07,
+      "L": 1.07,
+      "M": 1.07,
+      "psi": 126.48
+    },
+    {
+      "speed": 75,
+      "F": 1.025,
+      "G": 1.055,
+      "J": 1.055,
+      "K": 1.055,
+      "L": 1.055,
+      "M": 1.055,
+      "psi": 125.24
+    },
+    {
+      "speed": 80,
+      "F": 1,
+      "G": 1.04,
+      "J": 1.04,
+      "K": 1.04,
+      "L": 1.04,
+      "M": 1.04,
+      "psi": 124
+    },
+    {
+      "speed": 85,
+      "F": 0,
+      "G": 1.02,
+      "J": 1.03,
+      "K": 1.03,
+      "L": 1.03,
+      "M": 1.03,
+      "psi": 124
+    },
+    {
+      "speed": 90,
+      "F": 0,
+      "G": 1,
+      "J": 1.02,
+      "K": 1.02,
+      "L": 1.02,
+      "M": 1.02,
+      "psi": 124
+    },
+    {
+      "speed": 95,
+      "F": 0,
+      "G": 0,
+      "J": 1.01,
+      "K": 1.01,
+      "L": 1.01,
+      "M": 1.01,
+      "psi": 124
+    },
+    {
+      "speed": 100,
+      "F": 0,
+      "G": 0,
+      "J": 1,
+      "K": 1,
+      "L": 1,
+      "M": 1,
+      "psi": 124
+    },
+    {
+      "speed": 110,
+      "F": 0,
+      "G": 0,
+      "J": 0,
+      "K": 1,
+      "L": 1,
+      "M": 1,
+      "psi": 124
+    },
+    {
+      "speed": 120,
+      "F": 0,
+      "G": 0,
+      "J": 0,
+      "K": 0,
+      "L": 1,
+      "M": 1,
+      "psi": 124
+    },
+    {
+      "speed": 130,
+      "F": 0,
+      "G": 0,
+      "J": 0,
+      "K": 0,
+      "L": 0,
+      "M": 1,
+      "psi": 124
+    }
+  ]
+}

@@ -11,6 +11,7 @@ import {
   calcIPByETRTO,
 } from "@/lib/calc";
 import { exportToExcelAdvanced } from "@/lib/excelExport";
+import { exportToPDF } from "@/lib/pdfExport";
 
 type TirePosition = {
   id: string;
@@ -125,6 +126,19 @@ export default function Page() {
     return;
   };
 
+  const exportPDF = () => {
+    if (!data || !selectedTire) return;
+
+    exportToPDF(
+      data,
+      selectedTire,
+      totalLoad,
+      speed,
+      positions,
+      positionResults
+    );
+  };
+
   if (loading) return <main className="p-6">Loading data…</main>;
   if (!data || !data.tires.length)
     return <main className="p-6">Data tidak ditemukan.</main>;
@@ -147,6 +161,12 @@ export default function Page() {
             className="bg-green-500 hover:bg-green-600 text-white px-4 py-2.5 sm:py-2 rounded-lg font-medium text-sm touch-manipulation"
           >
             📥 Export Excel
+          </button>
+          <button
+            onClick={exportPDF}
+            className="bg-red-500 hover:bg-red-600 text-white px-4 py-2.5 sm:py-2 rounded-lg font-medium text-sm touch-manipulation"
+          >
+            📄 Export PDF
           </button>
         </div>
       </div>

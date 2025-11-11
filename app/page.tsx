@@ -199,7 +199,9 @@ export default function Page() {
                       key={row.speed}
                       className="text-center hover:bg-blue-50"
                     >
-                      <td className="border p-1 sm:p-2 font-semibold">{row.speed}</td>
+                      <td className="border p-1 sm:p-2 font-semibold">
+                        {row.speed}
+                      </td>
                       <td className="border p-1 sm:p-2">
                         {row.F ? `${(row.F * 100).toFixed(0)}%` : ""}
                       </td>
@@ -234,7 +236,9 @@ export default function Page() {
         <div className="space-y-4 sm:space-y-6">
           {/* Vehicle Settings */}
           <div className="bg-white shadow-lg rounded-xl p-3 sm:p-4">
-            <h2 className="text-base sm:text-lg font-semibold mb-3">Vehicle Settings</h2>
+            <h2 className="text-base sm:text-lg font-semibold mb-3">
+              Vehicle Settings
+            </h2>
 
             <div className="space-y-3">
               <div>
@@ -333,7 +337,9 @@ export default function Page() {
 
                     <div
                       className={`h-0.5 bg-gray-400 ${
-                        pos.tiresPerPosition === 2 ? "w-16 sm:w-20" : "w-12 sm:w-16"
+                        pos.tiresPerPosition === 2
+                          ? "w-16 sm:w-20"
+                          : "w-12 sm:w-16"
                       }`}
                     ></div>
 
@@ -345,7 +351,9 @@ export default function Page() {
 
                     <div
                       className={`h-0.5 bg-gray-400 ${
-                        pos.tiresPerPosition === 2 ? "w-16 sm:w-20" : "w-12 sm:w-16"
+                        pos.tiresPerPosition === 2
+                          ? "w-16 sm:w-20"
+                          : "w-12 sm:w-16"
                       }`}
                     ></div>
 

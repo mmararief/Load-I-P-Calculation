@@ -19,6 +19,20 @@ type PositionResult = {
   damage: { load: string; ip: string };
 };
 
+/**
+ * Generates and downloads an Excel spreadsheet with a detailed tire load and inflation pressure analysis.
+ * The spreadsheet includes vehicle settings, position-specific calculations, tire information,
+ * results, damage analysis, a speed variation table, and a summary table.
+ * It uses the 'xlsx-js-style' library to apply formatting and styling.
+ *
+ * @param {TireData} data - The complete tire dataset, including the speed table.
+ * @param {Tire} selectedTire - The specific tire model selected for the calculation.
+ * @param {number} totalLoad - The total vehicle load in tons.
+ * @param {number} speed - The average vehicle speed in km/h.
+ * @param {TirePosition[]} positions - An array of vehicle axle positions and their configurations.
+ * @param {PositionResult[]} positionResults - An array of calculation results for each position.
+ * @returns {void} This function does not return a value; it triggers a file download.
+ */
 export function exportToExcelAdvanced(
   data: TireData,
   selectedTire: Tire,

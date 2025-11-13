@@ -19,6 +19,13 @@ type TirePosition = {
   tiresPerPosition: 2 | 4;
 };
 
+/**
+ * The main page component for the Tire Load and Inflation Pressure Calculator.
+ * This component manages the application's state, handles user input,
+ * performs calculations, and renders the user interface.
+ *
+ * @returns {JSX.Element} The rendered React component.
+ */
 export default function Page() {
   const [data, setData] = useState<TireData | null>(null);
   const [loading, setLoading] = useState(true);

@@ -24,6 +24,15 @@ export const viewport: Viewport = {
   userScalable: true,
 };
 
+/**
+ * The root layout component for the Next.js application.
+ * This component wraps all pages, setting up the HTML structure,
+ * loading fonts, and applying global styles.
+ *
+ * @param {Readonly<{children: React.ReactNode}>} props - The component props.
+ * @param {React.ReactNode} props.children - The child components to be rendered within the layout.
+ * @returns {JSX.Element} The rendered HTML layout structure.
+ */
 export default function RootLayout({
   children,
 }: Readonly<{
